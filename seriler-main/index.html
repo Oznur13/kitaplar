@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kütüphane</title>
+     <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <form>
+        <label for="txtAd">Adınızı Giriniz:</label>
+        <input type="text" id="txtAd"><br>
+
+        <label for="txtSoyad">Soyadınızı Giriniz:</label>
+        <input type="text" id="txtSoyad"><br>
+
+        <label for="numberYas">Yaşınız Giriniz:</label>
+        <input type="number" id="numberYas"><br>
+        
+        <label for="kitapSerisi">kitap seciniz:</label>
+        <select name="kitaplar" id="kitapSerisi">
+           <option value="kk">kırmızı kurabiye</option>
+           <option value="sc">suc ve ceza</option>
+           <option value="kp">kırmızı piramit</option>
+           <option value="şp">seker portakalı</option>
+           <option value="rj">romeo ve juliet</option>
+        <input type="button" value="Gönder" id="btnGonder" onclick="kaydet()">
+    </form>
+    <h3 id="sonucBaslik" class="normal"></h3>
+    <img id="resim">
+
+    <script src="script.js"></script>
+    </form>
+</body>
+</html>

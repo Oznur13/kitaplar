@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 20rem;
+    height: 2rem;
+}
+
+select{
+    width: 20rem;
+    height: 2rem;
+}
+
+img{
+    width: 15rem;
+    height: 20rem;
+}
+
+.kk{
+    color: rgb(177, 72, 130);
+    border: thin solid  rgb(177, 72, 130);
+}
+
+.sc{
+    color: rgb(95, 95, 99);
+    border: thin solid rgb(95, 95, 99);
+}
+
+.kp{
+    color: rgb(83, 72, 6);
+    border: thin solid  rgb(83, 72, 6);
+}
+
+.şp{
+    color:  33rgb(180, 92,);
+    border: thin solid rgb(180, 92, 33);
+}
+
+.rj{
+    color: rgb(2, 2, 3);
+    border: thin solid rgb(2, 2, 3);
+}
+
+
+
+.normal{
+    background-color: #fff;
+    color: #000;
+}
